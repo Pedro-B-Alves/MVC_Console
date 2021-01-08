@@ -10,8 +10,10 @@ namespace MVC_Console
         {
             // Instanciamos nosso Controller
             ProdutoController produtoController = new ProdutoController();
-            produtoController.MostrarProdutos();
 
+            produtoController.Cadastrar();
+
+            produtoController.MostrarProdutos();
         }
     }
 }
